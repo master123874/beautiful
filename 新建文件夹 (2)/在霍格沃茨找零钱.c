@@ -1,0 +1,76 @@
+#include<stdio.h>
+int main()
+{
+    int Galleon,Sickle,Knut,a,b,c;
+    scanf("%d.%d.%d %d.%d.%d",&a,&b,&c,&Galleon,&Sickle,&Knut);
+    if(Galleon>=a)
+    {
+    	if(c>Knut)
+    	{
+    		Sickle--;
+    		Knut+=29;
+    		Knut=Knut-c;
+    		if(b>Sickle)
+    		{
+    			Galleon--;
+    			Sickle+=17;
+    			Sickle=Sickle-b;
+    			Galleon=Galleon-a;
+			}
+			else 
+			{
+				Sickle=Sickle-b;
+    			Galleon=Galleon-a;
+			}
+		}
+		else
+		{
+			Knut=Knut-c;
+			if(b>Sickle)
+    		{
+    			Galleon--;
+    			Sickle+=17;
+    			Sickle=Sickle-b;
+    			Galleon=Galleon-a;
+			}
+			else 
+			{
+				Sickle=Sickle-b;
+    			Galleon=Galleon-a;
+			}
+		}	
+	}
+	else
+	{
+		Galleon=Galleon-a;
+		if(b<Sickle)
+		{
+			Galleon++;
+			Sickle=b+17-Sickle;
+			if(c<Knut)
+			{
+				Sickle--;
+				Knut=c+29-Knut;
+			}
+			else
+			{
+				Knut=c-Knut;
+			}
+		}
+		else
+		{
+			Sickle=b-Sickle;
+			if(c<Knut)
+			{
+				Sickle--;
+				Knut=c+29-Knut;
+			}
+			else
+			{
+				Knut=c-Knut;
+			}
+		}
+	
+	}
+	printf("%d.%d.%d",Galleon,Sickle,Knut);
+}

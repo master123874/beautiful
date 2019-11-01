@@ -1,0 +1,127 @@
+# Project: 项目4
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/TTMS.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Account_UI.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Main_Menu.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Play_UI.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Queries_Menu.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Query_Play_UI.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Sale_UI.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/SalesAnalysis_UI.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Schedule_UI.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Seat_UI.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Studio_UI.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Ticket_UI.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Account.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/EntityKey.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Play.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Sale.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/SalesAnalysis.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Schedule.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Seat.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Studio.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Ticket.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Account_Persist.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/EntityKey_Persist.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Play_Persist.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Query_Persist.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Sale_Persist.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/SalesAnalysis_Persist.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Schedule_Persist.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Seat_Persist.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Studio_Persist.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Ticket_Persist.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/common.o" "C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/listTestDrv.o"
+LINKOBJ  = main.o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/TTMS.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Account_UI.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Main_Menu.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Play_UI.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Queries_Menu.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Query_Play_UI.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Sale_UI.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/SalesAnalysis_UI.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Schedule_UI.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Seat_UI.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Studio_UI.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Ticket_UI.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Account.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/EntityKey.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Play.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Sale.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/SalesAnalysis.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Schedule.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Seat.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Studio.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Ticket.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Account_Persist.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/EntityKey_Persist.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Play_Persist.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Query_Persist.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Sale_Persist.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/SalesAnalysis_Persist.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Schedule_Persist.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Seat_Persist.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Studio_Persist.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Ticket_Persist.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/common.o" "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/listTestDrv.o"
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = 项目4.exe
+CXXFLAGS = $(CXXINCS) -ansi
+CFLAGS   = $(INCS) -ansi
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/TTMS.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/TTMS.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/TTMS.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/TTMS.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Account_UI.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Account_UI.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Account_UI.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Account_UI.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Main_Menu.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Main_Menu.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Main_Menu.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Main_Menu.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Play_UI.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Play_UI.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Play_UI.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Play_UI.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Queries_Menu.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Queries_Menu.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Queries_Menu.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Queries_Menu.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Query_Play_UI.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Query_Play_UI.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Query_Play_UI.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Query_Play_UI.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Sale_UI.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Sale_UI.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Sale_UI.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Sale_UI.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/SalesAnalysis_UI.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/SalesAnalysis_UI.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/SalesAnalysis_UI.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/SalesAnalysis_UI.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Schedule_UI.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Schedule_UI.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Schedule_UI.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Schedule_UI.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Seat_UI.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Seat_UI.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Seat_UI.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Seat_UI.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Studio_UI.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Studio_UI.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Studio_UI.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Studio_UI.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Ticket_UI.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Ticket_UI.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Ticket_UI.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/View/Ticket_UI.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Account.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Account.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Account.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Account.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/EntityKey.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/EntityKey.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/EntityKey.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/EntityKey.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Play.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Play.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Play.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Play.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Sale.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Sale.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Sale.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Sale.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/SalesAnalysis.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/SalesAnalysis.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/SalesAnalysis.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/SalesAnalysis.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Schedule.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Schedule.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Schedule.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Schedule.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Seat.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Seat.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Seat.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Seat.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Studio.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Studio.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Studio.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Studio.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Ticket.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Ticket.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Ticket.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Service/Ticket.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Account_Persist.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Account_Persist.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Account_Persist.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Account_Persist.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/EntityKey_Persist.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/EntityKey_Persist.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/EntityKey_Persist.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/EntityKey_Persist.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Play_Persist.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Play_Persist.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Play_Persist.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Play_Persist.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Query_Persist.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Query_Persist.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Query_Persist.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Query_Persist.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Sale_Persist.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Sale_Persist.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Sale_Persist.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Sale_Persist.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/SalesAnalysis_Persist.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/SalesAnalysis_Persist.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/SalesAnalysis_Persist.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/SalesAnalysis_Persist.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Schedule_Persist.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Schedule_Persist.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Schedule_Persist.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Schedule_Persist.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Seat_Persist.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Seat_Persist.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Seat_Persist.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Seat_Persist.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Studio_Persist.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Studio_Persist.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Studio_Persist.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Studio_Persist.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Ticket_Persist.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Ticket_Persist.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Ticket_Persist.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Persistence/Ticket_Persist.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/common.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/common.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/common.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/common.o" $(CFLAGS)
+
+"C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/listTestDrv.o": C:/Users/左源/Documents/Tencent\ Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/listTestDrv.c
+	$(CC) -c "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/listTestDrv.c" -o "C:/Users/左源/Documents/Tencent Files/2622210422/FileRecv/TTMS-C-master/TTMS-C/src/Common/listTestDrv.o" $(CFLAGS)
